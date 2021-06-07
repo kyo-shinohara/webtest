@@ -1,0 +1,59 @@
+.bodyset{
+    font-family: 'メイリオ', Meiryo, sans-serif;
+    color: #a9a9aa
+}
+/* SDGS文字総合 */
+.sdgs {
+    background: -webkit-linear-gradient(
+15deg,#183668,hsl(355, 84%, 52%),#D3A029,#279B48,#C31F33,#EF402B,#00AED9,#FDB713,#8F1838,#F36D25,#E11484,#F99D26,#CF8D2A,#48773E,#007DBC,#5DBB46,#02558B);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    position: relative;
+}
+/* SDGSテキストカラー */
+.sdgs-tc1 {
+    background: -webkit-linear-gradient(
+15deg,#183668,hsl(355, 84%, 52%),#D3A029,#279B48,#C31F33,#EF402B,#00AED9,#FDB713,#8F1838,#F36D25,#E11484,#F99D26,#CF8D2A,#48773E,#007DBC,#5DBB46,#02558B);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    position: relative;
+}
+
+dl{
+    width: 100%;
+    overflow: hidden;
+    border: 0px solid #ccc;
+    border-top: none;
+    background: #ddd;
+    font-weight:normal;
+  }
+  dt{
+    width: 30%;
+    float: left;
+    box-sizing: border-box;    
+    line-height: 1;
+    font-weight:normal;
+  }
+  dd{
+    margin-left: 30%;
+    line-height: 1;
+  }
+  dd:after{
+    display: block;
+    content: "";
+    clear: both;
+  }
+  @media screen and (max-width: 320px) {
+    dt{
+      width: 100%;
+      float: none;
+    }
+    dd{
+      margin-left: auto;
+      border-left: none;
+    }
+  }
+  
+  
+  
+  
