@@ -7,14 +7,9 @@
     <title>TEST</title>
     <!-- グーグルアイコン-->
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-    <!-- Bootstrap5のCSS -->
+    <!-- Bootstrap4のCSS -->
     <link rel="stylesheet" href="css/Sample.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-
-     <!--
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/add_style.css" rel="stylesheet">
-    <link rel="shortcut icon" href="css/favicon.ico">-->
 
     <!-- jQuery -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
@@ -22,14 +17,23 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
     <script src="js/sample1.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
 
+    <!--bootstrap5
+    <link rel="stylesheet" href="css/Sample.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    -->
+    <!-- Option 1: Bootstrap Bundle with Popper 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+    -->
+
   </head>
 
 <!-- before-->
-<body class="bodyset">
+<body class="bodyset" >
 <div style="display: block;">
 <!-- Header -->
-<header class="navbar navbar-expand-lg fixed-top navbar-light bg-light" >
+<header class="navbar navbar-expand-lg fixed-top navbar-light bg-light" style="padding: 18px 0px" >
     <div class="container">
+      <div class="row justify-content-md-center">
         <a href="" class="navbar-brand vertical-align: inherit;"><h2 class="sdgs">
         K-SHI Account</h2></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
@@ -54,64 +58,42 @@
         </ul>
       </div>
     </div>
+  </div>
 </header>
 
-
 <!-- main -->
-<div class="content" style="padding-top: 90px;">
-<div class="container">
-  <div class="page-header" id="banner">
+<div class="content">
+<div class="container ">
+  <div class="page-header col-sm-9 col-md-9" id="banner">
     <div class="row">
 <!--Articul本体-->
-<articul id="mys" class="col-sm-9 col-md-9" style="margin-bottom: 40px; vertical-align: inherit ">
+<articul id="mys" class="al-top">
   <h1 class="sdgs">Page Top</h1>
   <div id="ie-message" style="display: none"  class="alert alert-danger" role="alert">
     お使いのブラウザはサポートされていません。	一部の機能は動作しない可能性があります。
     </div>
-   <img src="img/lJzOolGYTMSUQse3hb8mpg.jpg" class="img-responsive center-block col" alt="No infomation">
+   <img src="img/lJzOolGYTMSUQse3hb8mpg.jpg" class="img-responsive center-block col rounded" alt="No infomation">
     <ul class="list-line">
   </ul>
 </articul>
-<articul id="about" class="col-sm-9 col-md-9" style="margin-bottom: 40px; vertical-align: inherit ">
+<articul id="about" class="al-top">
   <h1 class="sdgs">About</h1>
-  <div>
+  <div style="display: flex;"> 
+    <a href="./index.html" class="carbon-img" rel="noopener">
+      <img src="./img/my.jpg" class="center-block rounded-lg" alt="kshi準備中" ></a>
     <table class="table table-borderless">
       <tr>
-      <dt scope="col">名称 ：</dt><dd scope="col">K-SHI</dd></tr>
-      <tbody><tr>
-      <dt scope="col">所在地 ：</dt><dd scope="col">東京都内</dd></tr><tr>
-      <dt scope="col">お問い合わせ ：</dt><dd scope="col">準備中</dd></tr><tr>
-      <dt scope="col">事業内容 ：</dt><dd scope="col">Web制作におけるHTML・CSSコーディング/ERP導入等</dd>
-    </tr></tbody>
-
-    </table>
-    篠原亨介　Shinohara Kyosuke
-    <table class="table table-borderless">
-    <th>facebook ：</th><th></th>
+      <td scope="col">名称 ：</td><td scope="col">K-SHI</td></tr><tr>
+      <td scope="col">所在地 ：</td><td scope="col">東京都内</td></tr><tr>
+      <td scope="col">お問い合わせ ：</td><td scope="col">準備中</td></tr><tr>
+      <td scope="col">事業内容 ：</td><td scope="col">Web制作におけるHTML・CSSコーディング/ERP導入等</td></tr>
   </table>
-
-  </div>
-   <img src="img/" class="img-responsive center-block col" alt="No infomation">
-    <ul class="list-line">
-  </ul>
+</div>
 </articul>
-
-
-
-    <!--Asideサイドバー-->
-    <aside class="col-sm-6 col-md-3">
-      <div><span></span>
-        <div class="">
-        <p class=""></p></div>
-      </div>      <div><span></span>
-        <div class="">
-        <p class=""></p></div>
-      </div>
-      <div><span></span>
-        <div class="">
-        <p class=""></p></div>
-      </div>
-    </aside>
+<articul id="contact" class="al-top">
+  <h1 class="sdgs">contact</h1>
+  
+</articul>
     </div>
   </div>
 
@@ -121,7 +103,7 @@
 <!--footer-->
 <div class="row bka_footer modal_footer fixed-bottom ">
     <footer class="container">
-        <div id="success-message" class="vc_col-md-12 text-center">
+        <div id="Dammyright" class="vc_col-md-12 text-center">
 <p>準備中</p>
           </div>
       </footer>

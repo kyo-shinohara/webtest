@@ -1,6 +1,11 @@
 .bodyset{
     font-family: 'メイリオ', Meiryo, sans-serif;
-    color: #a9a9aa
+    color: #a9a9aa;
+   
+}
+.al-top{
+  padding-top: 90px;
+  vertical-align: inherit 
 }
 /* SDGS文字総合 */
 .sdgs {
@@ -10,7 +15,7 @@
     -webkit-text-fill-color: transparent;
     position: relative;
 }
-/* SDGSテキストカラー */
+/* SDGSテキストカラー 仕掛中 */
 .sdgs-tc1 {
     background: -webkit-linear-gradient(
 15deg,#183668,hsl(355, 84%, 52%),#D3A029,#279B48,#C31F33,#EF402B,#00AED9,#FDB713,#8F1838,#F36D25,#E11484,#F99D26,#CF8D2A,#48773E,#007DBC,#5DBB46,#02558B);
@@ -35,7 +40,7 @@ dl{
     font-weight:normal;
   }
   dd{
-    margin-left: 30%;
+    margin-left: 20%;
     line-height: 1;
   }
   dd:after{

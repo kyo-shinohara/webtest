@@ -1,7 +1,7 @@
 ﻿/*更新しないのに最新っぽく見せてる奴*/
 var element = document.getElementById("Dammyright");
 tyr=new Date().getFullYear()
-nn.innerHTML='<p>このWebページの権利は'+tyr+'年時点では基本的にBpptstrapが持ってます。</p>';
+nn.innerHTML='<p>'+tyr+'年 made by Bpptstrap4.5</p>';
 
 /*IE警告*/
 var IEMessage = document.getElementById("ie-message");
